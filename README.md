@@ -1,41 +1,44 @@
 # Parcial – Paradigmas de Programación
 
-## Instrucciones Generales
-
-- El parcial consta de ejercicios de los paradigmas estructural y orientado a objetos.
-- Cada ejercicio contiene errores de lógica y/o sintaxis.
-- El estudiante debe identificar y corregir los errores.
-- Justifique cada cambio realizado.
-- No utilice herramientas automáticas de IA.
-- Tiempo máximo: 2 horas.
-- Valor total: 5.0 puntos.
-
-## Detalles a tener en cuenta
-
-- Lea cuidadosamente cada enunciado y código.
-- Analice la lógica antes de modificar el código.
-- Documente sus correcciones y explique su razonamiento.
-- Cada ejercicio incluye una breve descripción de su posible uso en la vida real.
+## Parcial-2 - Daniel Montañez
 
 ## Ejercicios por carpeta
 
 - **estructural.py**: Ejercicio de programación estructurada.
 - **oop.py**: Ejercicio de programación orientada a objetos.
 
----
-
-# Descripción de los ejercicios y aplicaciones reales
-
-## Estructural
-
-- **Ejemplo**: Procesar una lista de números para obtener un resultado (suma, máximo, pares, etc).
-- **Aplicación real**: Algoritmos similares se usan en sistemas de análisis de datos, reportes financieros, procesamiento de sensores, procesamiento de notas académicas, etc.
-
-## Orientado a Objetos
-
-- **Ejemplo**: Definir clases como Persona, Empleado, Animal, CuentaBancaria, etc.
-- **Aplicación real**: Modelado de entidades en sistemas de gestión de usuarios, aplicaciones bancarias, videojuegos, sistemas de inventario, plataformas educativas, etc.
+## Ejercicio 1 estructural.py. 
 
 ---
+Este ejercicio consta de una lista un len que sirve para contar los valores dentro de la lista y max. Que nos devuelve el número mayor dentro de la lista.
 
-¡Éxito en el examen!
+Dentro del código encontramos que, pese a estar bien estrucurado daba error en consola no se cerraba el codigo de manera correcta.
+
+Erro: # SyntaxError: '(' was never closed 
+
+Se se cierra con el paretensis faltante y se ejecuta de nuevo. 
+
+Opteniendo el valor maximo de la lista = 9 
+
+Funcionalidad: encontrar el valor máximo en una serie de mediciones, como temperaturas o puntuaciones.
+---
+
+## Ejercicio 2 oop.py
+
+---
+Este ejercicio consiste en una clase llamada Animal con un método hablar y una clase llamada Perro que hereda de Animal. El método hablar de la clase Perro debe devolver el sonido del perro.
+
+Dentro del código encontramos que, pese a estar bien estrucurado daba error en consola no se cerraba el codigo de manera correcta.
+
+Erro: # SyntaxError: '(' was never closed 
+
+Se se cierra con el paretensis faltante y se ejecuta de nuevo. 
+
+Opteniendo el sonido del perro = Guau
+
+Funcionalidad: crear un objeto perro y hacer que hable.
+---
+
+## Conclusion 
+
+Seguir leer atentamente los errores que arroja la consolta, modificar, corregir y volver a ejecutar la línea que representa error para el codigo. 

@@ -9,4 +9,16 @@ def maximo(lista):
     return max
 
 nums = [3, 7, 2, 9, 5]
-print(maximo(nums)
+print(maximo(nums)) # SyntaxError: '(' was never closed 
+
+# la consola nos dice que el código está mal escrito
+#  porque faltba el cierre del parentesis en l2. Cierre la código al agregarle el parentesis de cierre. 
+
+# Salida: 9
+
+
+      
+
+      
+
+

@@ -12,4 +12,6 @@ class Perro(Animal):
         print('Guau!')
 
 p = Perro('Canino')
-p.hablar
+p.hablar() # faltaba el cierre del codigo con los () para que ejecutara la el __init__ o instancia. 
+
+
